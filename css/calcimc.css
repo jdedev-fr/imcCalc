@@ -1,0 +1,41 @@
+form {
+    width: 350px;
+    margin: 100px auto;
+    background-color: rgba(65, 105, 225,0.7);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0,0.5) 5px 5px 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+form>* {
+    margin: 10px 0;
+}
+.spBet {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+[type=submit]{
+    background-color: rgb(79, 136, 79);
+    color: black;
+    font-weight: bold;
+    padding: 10px 50px;
+    border:none;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0,0.5) 5px 5px 5px;
+}
+[type=submit]:hover{
+    cursor: pointer;
+    background-color: rgb(104, 170, 104);
+}
+.res {
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 20px;
+    border-radius: 5px;
+}

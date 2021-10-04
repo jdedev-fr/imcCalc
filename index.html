@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculateur IMC</title>
+    <link rel="stylesheet" href="./css/calcimc.css">
+    <script src="./js/calcimc.js" defer></script>
+</head>
+
+<body>
+    <form onsubmit="calculImc(event)">
+        <h1>Mon calculateur d'IMC</h1>
+        <div class="spBet">
+            <label for="poids">Poids (en KG)</label>
+            <input type="number" name="poids" id="poids">
+        </div>
+        <div class="spBet">
+            <label for="taille">Taille (en cm)</label>
+            <input type="number" name="taille" id="taille">
+        </div>
+        <input type="submit" value="Calculer">
+        <div class="res"></div>
+    </form>
+</body>
+
+</html>
